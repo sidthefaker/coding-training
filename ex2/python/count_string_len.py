@@ -1,5 +1,7 @@
 def count_string_len(string):
-    pass
+    if string is None or len(string) == 0: # todo:find efficient way
+        raise ZeroStringError
+    return len(string)
 
 
 class ZeroStringError(ValueError):
