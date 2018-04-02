@@ -10,3 +10,7 @@ class TestCountStringLen(unittest.TestCase):
     def test_zero_string(self):
         with self.assertRaises(count_string_len.ZeroStringError):
             count_string_len.count_string_len("")
+
+
+if __name__ == '__main__':
+    unittest.main()
