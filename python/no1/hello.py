@@ -1,6 +1,9 @@
 
 def hello(name):
-    pass
+    if name == 'quit':
+        return "Bye-bye"
+    else:
+        return "Hello, " + name + ", nice to meet you!"
 
 
 if __name__ == '__main__':
