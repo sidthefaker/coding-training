@@ -7,5 +7,4 @@ def hello(name):
 
 
 if __name__ == '__main__':
-    name = input("What is your name?")
-    print hello(name)
+    print hello(input("What is your name?"))
