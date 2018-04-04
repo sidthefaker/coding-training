@@ -1,5 +1,5 @@
 def print_quote(speaker, words):
-    pass
+    return speaker + ", \"" + words + ".\""
 
 
 if __name__ == '__main__':
