@@ -1,4 +1,3 @@
-
 def hello(name):
     if name == 'quit':
         return "Bye-bye"
@@ -7,4 +6,4 @@ def hello(name):
 
 
 if __name__ == '__main__':
-    print hello(raw_input("What is your name?"))
+    print(hello(input("What is your name?")))
