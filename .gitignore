@@ -1,2 +1,8 @@
 .idea
 .cache
+
+__pycache__
+venv
+.gradle/
+*.egg-info
+build/
