@@ -8,18 +8,16 @@
 //rootProject.name = 'coding-training'
 
 plugins {
-    id 'com.linkedin.python' version '0.9.12'
-    id "com.linkedin.python-cli" version "0.3.36"
+    id 'com.linkedin.python' version '0.9.11'
 }
 
 repositories {
     pyGradlePyPi()
-
 }
 
 allprojects{
     dependencies {
-        python 'pypi:requests:2.9.1'
+        //python 'pypi:requests:2.9.1'
         test 'pypi:mock:1.3.0'
     }
 

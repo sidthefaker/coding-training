@@ -6,3 +6,6 @@ venv
 .gradle/
 *.egg-info
 build/
+dist/
+activate
+pinned.txt
