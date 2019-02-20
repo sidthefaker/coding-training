@@ -44,7 +44,7 @@ def print_result(result_type: str, results: list):
         for result in results:
             if idx != 0:
                 print("----------------------------------------")
-            print("{} test: %l{}".format(result_type, (result[0])))
+            print("{} test: {}".format(result_type, (result[0])))
             print(result[1])
         print('========================================')
 
