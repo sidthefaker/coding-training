@@ -8,3 +8,6 @@
  */
 
 rootProject.name = 'coding-training'
+
+include 'ex1'
+//include ex2
