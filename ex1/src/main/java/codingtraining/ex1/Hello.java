@@ -1,4 +1,4 @@
-package ex1;
+package codingtraining.ex1;
 
 import java.util.Scanner;
 

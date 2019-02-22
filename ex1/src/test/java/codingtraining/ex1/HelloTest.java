@@ -1,7 +1,8 @@
-package ex1;
+package codingtraining.ex1;
 
-import static org.junit.Assert.*;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class HelloTest {
     @Test
