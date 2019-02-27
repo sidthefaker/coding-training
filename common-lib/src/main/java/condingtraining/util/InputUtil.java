@@ -9,12 +9,18 @@ public class InputUtil {
     private static final Scanner scanner = new Scanner(new BufferedInputStream(System.in));
 
     public static int inputInteger(String text) throws IOException {
+        return inputInteger(text, (input) -> true);
+    }
+
+    public static int inputInteger(String text, IntegerInputValidater condition) throws IOException {
         int count = 0;
         while (RETRY_LIMIT > 0 && RETRY_LIMIT >= count) {
             System.out.print(text);
             String inputText = scanner.nextLine();
             try {
-                return Integer.parseInt(inputText);
+                int input = Integer.parseInt(inputText);
+                if (condition == null || condition.validate(input))
+                    return input;
             } catch (NumberFormatException e) {
                 System.out.println("Please input number");
             }

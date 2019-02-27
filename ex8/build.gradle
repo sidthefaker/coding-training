@@ -1,0 +1,4 @@
+// todo move to root build
+dependencies {
+    compile project(':common-lib')
+}
